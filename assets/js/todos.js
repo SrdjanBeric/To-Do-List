@@ -35,7 +35,7 @@ $("input[type='text'").keypress(function(event){
 });
 
 $(".fa-plus").on("click", function(event){
-    $("addInput").slideToggle(170);
+    $("#addInput").slideToggle(170);
 })
 
 $(".fa-file").on("click", function(){
